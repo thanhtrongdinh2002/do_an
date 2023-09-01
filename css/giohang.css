@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.giohang{
+    width: 98%;
+    margin: 20px 10px;
+    border-collapse: collapse;
+}
+.giohang,tr,th,td{
+    border: 2px solid black;
+}
+td>div{
+    text-align: center;
+}
+td>div>img{
+    height: 248px;
+    object-fit: contain;
+}
+th{
+    padding: 10px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+}
+.number button{
+    border: 0.5px solid blue;
+    background: none;
+    padding: 2px 4px;
+}
+.number button:hover{
+    background: rgb(243, 243, 243);
+    box-shadow:0 5px 5px rgb(179, 179, 179);
+}
+.payment{
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.payment:hover{
+    background: rgb(233, 233, 233);
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-product{
+    float: right;
+    width: 80%;
+    margin: 2% 4% 0 0;
+    background: white;
+    min-height: 263px;
+    position: relative;
+    box-shadow:0px 0px 2px 2px rgb(151, 150, 150);
+    border-radius: 7px;
+}
+
+button {
+    border-radius: 5px ;
+    height: 40px;
+    width: 15%;
+    background: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 5px;
+}
+button>a{
+    color: white;
+}
+button:hover a{
+    color: black;
+}
+button:hover{
+    background: rgb(244, 244, 244);
+}
+
+
+
+table {
+    width: 98%;
+    min-height: 120px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 1% 1%;
+    background: rgb(244, 244, 244);
+}
+table, td ,th {
+    border: 1px solid gray;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+.btn-main{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}

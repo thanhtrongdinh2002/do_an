@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.update{
+    width: 100%;
+    height: 40vh;
+}
+
+.update-form{
+    float: right;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 78%;
+    margin: 20px 64px;
+    padding: 10px;
+    background: white;
+}
+.update-form>div{
+    margin: 5px;
+    display: flex;
+}
+.update-form>div>label{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.update-form>div>input {
+    flex: 6;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+select{
+    margin-left: 10px;
+}
+.update-form>div:last-child input{
+    background: rgb(13, 102, 190);
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 5%;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+

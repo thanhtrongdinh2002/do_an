@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid gainsboro ;
+    background: white;
+    justify-content: space-between;
+    padding: 18px;
+}
+.menu:first-child {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+.fa-circle-user {
+    font-size: 30px;
+    flex-direction: row-reverse;
+}
+
+.sidebar-left>ul {
+    list-style: none;
+}
+.sidebar-left>ul a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar-left>ul li{
+    margin: 20px 10px;
+}
+
+.sidebar-left{
+    float: left;
+    background: white;
+    width: 200px;
+    height: 5000px;
+    border: 1px solid gainsboro;
+    border-top: none;
+    position: relative;
+}
+.sidebar-left>ul div a{
+    color: red;
+}

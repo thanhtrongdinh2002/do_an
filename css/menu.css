@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    background: #e2e1e0;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu>li{
+    padding: 15px 10px;
+
+}
+
+.menu li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 10px;
+}
+
+.menu>li>a{
+    margin: 0 6px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menu li:hover>a {
+    color: red;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-weight: 500;
+}
+
+.sub-menu {
+    position: absolute;
+    background: rgb(215, 215, 215);
+    margin-top: 15px;
+    text-align: left;
+}
+
+.sub-menu li a {
+    font-size: 10px;
+    font-weight: 600;
+    height: 34px;
+    text-align: 15px;
+    line-height: 38px;
+}
+
+.sub-menu li{
+    display: none;
+    width: 200px;
+    padding: 4px 0px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    margin: 0 10px;
+}
+.sub-menu li:hover a{
+    color: red;
+}
+.menu>li:hover .sub-menu>li {
+    display: block;
+}
+
+.menu>a {
+    color: black;
+    font-size: 25px;
+    margin: 7px 0 0 10px;
+}
+.cart-number{
+    color:white;
+    background: #DC3535;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding-top: 1px;
+    position: absolute;
+    right: 22.2%;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 10%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer{
+    clear: both;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top: 4px solid blue ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background: rgb(234, 234, 234);
+    padding: 20px 0; 
+    
+}
+
+.footer>ul div {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.footer>ul li{
+    padding: 2px;
+
+}
+
+.footer>ul {
+    list-style: none;
+}
+.footer>ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer>ul li:hover a{
+    color: blue;
+}
